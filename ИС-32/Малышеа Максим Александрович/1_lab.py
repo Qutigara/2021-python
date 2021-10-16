@@ -9,6 +9,5 @@ dict_list = {"int": 131, 'float': -1.431, 'str': "gfdgsf", 'complex': (5+1/3j), 
 filt_dict = {key: value for key, value in dict_list.items() if len(key)>3 or value != None}
 
 
-
 print(filt_dict)
 print(filtered_list)
